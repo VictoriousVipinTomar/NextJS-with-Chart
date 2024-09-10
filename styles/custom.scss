@@ -1,0 +1,21 @@
+// Custom breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 425px,
+    md: 768px,
+    lg: 960px,
+    xl: 1280px,
+    xxl: 1440px,
+);
+
+// Custom container max-widths
+$container-max-widths: (
+    sm: 400px,
+    md: 720px,
+    lg: 940px,
+    xl: 1240px,
+    xxl: 1400px,
+);
+
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
